@@ -8,6 +8,7 @@ app.use(express.json());
 const users = [];
 const messages = [];
 
+// <------Cadastrar------>
 app.post("/signup", async (req, res) => {
   const { name, email, password } = req.body;
 
@@ -35,7 +36,7 @@ app.post("/signup", async (req, res) => {
     user: newUser,
   });
 });
-
+// <------Logar------>
 app.post("/login", async (req, res) => {
   const { email, password } = req.body;
 
@@ -60,6 +61,10 @@ app.post("/login", async (req, res) => {
     token: user.id,
   });
 });
+
+// <------Message tasks------>
+
+// <------Criar------>
 
 app.post("/messages", (req, res) => {
   const { title, description, userId } = req.body;
@@ -87,6 +92,8 @@ app.post("/messages", (req, res) => {
   });
 });
 
+// <------Listar------>
+
 app.get("/messages/:userId", (req, res) => {
   const { userId } = req.params;
 
@@ -102,6 +109,8 @@ app.get("/messages/:userId", (req, res) => {
 
   res.json(usersMessages);
 });
+
+// <------Atualizar------>
 
 app.put("/messages/:messageId", (req, res) => {
   const { messageId } = req.params;
@@ -123,6 +132,8 @@ app.put("/messages/:messageId", (req, res) => {
     message: "message updated successfully",
   });
 });
+
+// <------Deletar------>
 
 app.delete("/messages/:messageId", (req, res) => {
   const { messageId } = req.params;
