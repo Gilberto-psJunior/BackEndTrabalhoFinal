@@ -2,13 +2,17 @@
 
 <p align="center">Aplicação Lista de Recados
 
+ <ul>
 ● Vamos criar um back-end que contém
 as seguintes funcionalidades:
-○ Criação de conta
-○ Login
-○ CRUD* de recados
+    <li>○ Criação de conta</li> 
+    <li>○ Login</li>
+   <li>○ CRUD* de recados</li>
 
-*CRUD (create, read, update e delete)
+
+
+
+*CRUD (create, read, update e delete)</ul>
 
 ●Regras de negócio :
 - Não pode ter mais de um usuário
