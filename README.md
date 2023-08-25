@@ -1,6 +1,6 @@
 <h1 align="center">Trabalho final - Modulo BackEnd I</h1>
 
-<p align="center">Aplicação Lista de Recados
+<p align="center">Aplicação Lista de Recados</p>
 
  <ul align="center">
 ● Vamos criar um back-end que contém
@@ -12,17 +12,29 @@ as seguintes funcionalidades:
 
 
 
-*CRUD (create, read, update e delete)</ul>
+</ul>
+<p align="center">*CRUD (create, read, update e delete)
+</p> 
 
-●Regras de negócio :
-- Não pode ter mais de um usuário
+<ul align="center">
+ ●Regras de negócio :
+<li>
+ Não pode ter mais de um usuário
   com o mesmo e-mail;
-
-- O login deve ser feito com e-mail e
+</li> 
+<li>
+  O login deve ser feito com e-mail e
   senha;
+</li>
 
-- Cada recado deve ser de um único
+<li>
+  Cada recado deve ser de um único
   usuário.
-</p>
+</li>
+
+
+
+</ul>
+
 
 ## Status: finalizado
