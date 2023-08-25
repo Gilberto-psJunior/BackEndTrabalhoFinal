@@ -17,7 +17,7 @@ as seguintes funcionalidades:
 </p> 
 
 <ul align="center">
- ●Regras de negócio :
+ Regras de negócio :
 <li>
  Não pode ter mais de um usuário
   com o mesmo e-mail;
@@ -37,4 +37,4 @@ as seguintes funcionalidades:
 </ul>
 
 
-## Status: finalizado
+ <h2 align="center">STATUS:FINALIZADO</h2>
