@@ -2,7 +2,7 @@
 
 <p align="center">Aplicação Lista de Recados
 
- <ul>
+ <ul align="center">
 ● Vamos criar um back-end que contém
 as seguintes funcionalidades:
     <li> Criação de conta</li> 
