@@ -5,9 +5,9 @@
  <ul>
 ● Vamos criar um back-end que contém
 as seguintes funcionalidades:
-    <li>○ Criação de conta</li> 
-    <li>○ Login</li>
-   <li>○ CRUD* de recados</li>
+    <li> Criação de conta</li> 
+    <li> Login</li>
+   <li> CRUD* de recados</li>
 
 
 
