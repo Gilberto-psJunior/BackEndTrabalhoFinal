@@ -8,7 +8,9 @@ app.use(express.json());
 const users = [];
 const messages = [];
 
-app.get("/", (req, res) => {res.send(console.log("Servidor rodando!"));});
+app.get('/', function(req, res) {
+  res.send('Servidor Rodando');
+});
 
 // <------Cadastrar------>
 app.post("/signup", async (req, res) => {
