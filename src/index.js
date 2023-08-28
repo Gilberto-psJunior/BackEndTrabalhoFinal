@@ -8,8 +8,8 @@ app.use(express.json());
 const users = [];
 const messages = [];
 
-app.get('/', function(req, res) {
-  res.send('Servidor Rodando');
+app.get("/", function (req, res) {
+  res.send("Servidor Rodando");
 });
 
 // <------Cadastrar------>
